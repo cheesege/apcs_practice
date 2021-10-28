@@ -8,13 +8,16 @@
 using namespace std;
 
 int main() {
-    cout << "Hello World!";
-    cout << endl;
-    cout << "what your name? ";
-    string a;
-    string b("Hi ");
-    cin >> a;
-    cout << b << a;
+    for (int i = -10; i < 10; ++i) {
+        for (int j = 10 - abs(i); j > 0 + 1; --j)
+            cout << "電電起司 ";
+        for (int j = 9 * 15 - (10 - abs(i)); j > 0 + 1; --j)
+            cout << "i need to sleep im so tired　　　　 "; // have a good dream, good night!bye
+        for (int j = 10 - abs(i); j > 0 + 1; --j) {
+            cout << "電電起司 ";
+        }
+        cout << endl;
+    }
     return 0;
 }
 // 執行exe, .\ exe檔案名
