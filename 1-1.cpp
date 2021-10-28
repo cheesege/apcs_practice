@@ -18,6 +18,7 @@ int main() {
         }
         cout << endl;
     }
+    // hi
     return 0;
 }
 // 執行exe, .\ exe檔案名
